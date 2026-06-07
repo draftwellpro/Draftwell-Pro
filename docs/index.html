@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draftwell Pro — Write the Book. All of It.</title>
+  <meta name="description" content="Draftwell Pro is a local writing app that organizes your book, tracks your time, analyzes your prose, and manages your submission pipeline — all on your own machine, with no subscription and no AI.">
+  <meta name="theme-color" content="#0a0d14">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav id="nav">
+  <div class="container nav-inner">
+    <div class="nav-logo">Draftwell <span>Pro</span></div>
+    <ul class="nav-links">
+      <li><a href="#editor">Editor</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+      <li><a href="#entities">Entities</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#query-tracker">Query Tracker</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#price">Pricing</a></li>
+    </ul>
+    <a href="#download" class="btn btn-primary nav-cta">Download</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════ HERO ══════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-glow hero-glow-3"></div>
+  </div>
+
+  <div class="hero-content reveal">
+    <div class="badges">
+      <span class="badge badge-blue">&#8960; No AI</span>
+      <span class="badge badge-teal">&#8960; No Subscription</span>
+      <span class="badge badge-purple">&#128274; Your Data Stays Local</span>
+      <span class="badge badge-green">&#x229E; Windows Desktop App</span>
+    </div>
+    <h1 class="hero-headline">Write the book.<br><span class="gradient-text">All of it.</span></h1>
+    <p class="hero-sub">
+      Draftwell Pro is a local writing app that organizes your book, tracks your time, analyzes your prose, and manages your submission pipeline — all on your own machine, with no subscription and no AI.
+    </p>
+    <div class="hero-cta">
+      <a href="#download" class="btn btn-primary btn-lg">&#11015; Download for Windows</a>
+      <a href="#editor"   class="btn btn-ghost   btn-lg">Explore Features &#8594;</a>
+    </div>
+  </div>
+
+  <div class="hero-mockup reveal reveal-d2">
+    <div class="hero-carousel">
+      <img class="hc-slide active screenshot" src="images/MainEditor.png"      alt="Writing environment">
+      <img class="hc-slide screenshot"        src="images/Goals.png"           alt="Session goals">
+      <img class="hc-slide screenshot"        src="images/WritingStyle.png"    alt="Writing style analytics">
+      <img class="hc-slide screenshot"        src="images/Readability.png"     alt="Readability metrics">
+      <img class="hc-slide screenshot"        src="images/Vocabulary.png"      alt="Vocabulary metrics">
+      <img class="hc-slide screenshot"        src="images/Rythm.png"           alt="Rhythm metrics">
+      <img class="hc-slide screenshot"        src="images/EntityFrequency.png" alt="Entity frequency">
+      <img class="hc-slide screenshot"        src="images/ToDo.png"            alt="To Do board">
+      <img class="hc-slide screenshot"        src="images/QueryTracker1.png"   alt="Query tracker">
+      <img class="hc-slide screenshot"        src="images/QueryTracker2.png"   alt="Query tracker detail">
+      <img class="hc-slide screenshot"        src="images/Search.png"          alt="Full-text search">
+      <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+      <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+      <div class="hc-dots">
+        <button class="hc-dot active" data-idx="0"  aria-label="Slide 1"></button>
+        <button class="hc-dot"        data-idx="1"  aria-label="Slide 2"></button>
+        <button class="hc-dot"        data-idx="2"  aria-label="Slide 3"></button>
+        <button class="hc-dot"        data-idx="3"  aria-label="Slide 4"></button>
+        <button class="hc-dot"        data-idx="4"  aria-label="Slide 5"></button>
+        <button class="hc-dot"        data-idx="5"  aria-label="Slide 6"></button>
+        <button class="hc-dot"        data-idx="6"  aria-label="Slide 7"></button>
+        <button class="hc-dot"        data-idx="7"  aria-label="Slide 8"></button>
+        <button class="hc-dot"        data-idx="8"  aria-label="Slide 9"></button>
+        <button class="hc-dot"        data-idx="9"  aria-label="Slide 10"></button>
+        <button class="hc-dot"        data-idx="10" aria-label="Slide 11"></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ THE PROBLEM ══════════════════════ -->
+<section id="problem" class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Sound Familiar?</span>
+      <h2>Writing is hard enough.<br>Your tools shouldn't make it harder.</h2>
+      <p>Most writing software was designed by product managers, not writers. You end up managing the tool instead of the book.</p>
+    </div>
+    <div class="problem-grid">
+      <div class="problem-card reveal reveal-d1">
+        <div class="problem-icon">&#128565;</div>
+        <h3>You lost a character three chapters ago</h3>
+        <p>No record of when Elena first appeared, what she looks like, or why she's afraid of horses. It's in your head — somewhere.</p>
+      </div>
+      <div class="problem-card reveal reveal-d2">
+        <div class="problem-icon">&#9200;</div>
+        <h3>You have no idea how long this is taking</h3>
+        <p>You've been "working on it" for eight months. How many actual writing hours is that? You don't know. You've never known.</p>
+      </div>
+      <div class="problem-card reveal reveal-d3">
+        <div class="problem-icon">&#128140;</div>
+        <h3>Your query list is a spreadsheet nightmare</h3>
+        <p>Forty agents, each with different portals, response windows, and statuses — tracked in a Google Sheet that hasn't been touched since March.</p>
+      </div>
+      <div class="problem-card reveal reveal-d4">
+        <div class="problem-icon">&#128181;</div>
+        <h3>You're paying a subscription for a tool you hate</h3>
+        <p>$79/year to fight a compile step that does nothing but remind you the interface was designed for screenwriters in 2007.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════════ WRITING ENVIRONMENT ════════════════ -->
+<section id="editor">
+  <div class="container">
+    <div class="feat-layout">
+      <div class="feat-copy reveal">
+        <span class="section-label">The Writing Environment</span>
+        <h2>Everything you need.<br>Nothing you don't.</h2>
+        <p>Your book lives in a clean three-level hierarchy: <strong style="color:var(--text-1)">Book → Chapter → Scene</strong>. A sidebar shows your full structure at a glance. Click a scene, write in it. That's the whole interface.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#9998;</div>
+            <div class="feature-text">
+              <h4>Rich Text Editor</h4>
+              <p>Real formatting — bold, italic, headings, lists.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-teal">&#128190;</div>
+            <div class="feature-text">
+              <h4>Auto-Save Every 5 Seconds</h4>
+              <p>Changes saved automatically whenever you've written something new. You will never lose a sentence.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#128203;</div>
+            <div class="feature-text">
+              <h4>Notes Per SCene &amp; Custom Tabs</h4>
+              <p>A built-in Notes tab on every scene, plus unlimited custom tabs for research, character beats, or reference material.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-amber">&#128214;</div>
+            <div class="feature-text">
+              <h4>In-Editor Thesaurus</h4>
+              <p>Right-click any word for synonyms. Offline-first — works without internet.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-teal">&#10024;</div>
+            <div class="feature-text">
+              <h4>Entity Highlighting</h4>
+              <p>Known characters, locations, and items glow in the editor as you type — continuity problems become impossible to miss.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-d2">
+        <img src="images/MainEditor.png" alt="Draftwell Pro writing environment" class="screenshot section-screenshot">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ ANALYTICS ════════════════════════ -->
+<section id="analytics" class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Charts &amp; Analytics</span>
+      <h2>Your book has data.<br><span class="gradient-text">You should see it.</span></h2>
+      <p>Six analytical dashboards. No guessing whether your second act is thin, your protagonist is underwritten, or your prose reads like a legal document.</p>
+    </div>
+
+    <div class="analytics-tabs reveal">
+      <button class="tab-btn active" data-tab="style">Writing Style</button>
+      <button class="tab-btn"        data-tab="structure">Story Structure</button>
+      <button class="tab-btn"        data-tab="progress">Progress</button>
+      <button class="tab-btn"        data-tab="screenshots">Screenshots</button>
+    </div>
+
+    <!-- Writing Style tab -->
+    <div class="tab-panel active" id="tab-style">
+      <div class="radar-wrap reveal">
+        <div class="radar-svg-box">
+          <svg id="radar-svg" viewBox="0 0 300 300" width="100%" style="max-width:280px;display:block;margin:0 auto;">
+            <!-- Background rings -->
+            <polygon points="150,50 231,100 231,200 150,250 69,200 69,100"  fill="none" stroke="#1e2a3a" stroke-width="1"/>
+            <polygon points="150,83 206,116 206,183 150,216 94,183 94,116"  fill="none" stroke="#1e2a3a" stroke-width="1"/>
+            <polygon points="150,116 181,132 181,168 150,184 119,168 119,132" fill="none" stroke="#1e2a3a" stroke-width="1"/>
+            <!-- Axis spokes -->
+            <line x1="150" y1="50"  x2="150" y2="250" stroke="#1e2a3a" stroke-width="1"/>
+            <line x1="69"  y1="100" x2="231" y2="200" stroke="#1e2a3a" stroke-width="1"/>
+            <line x1="231" y1="100" x2="69"  y2="200" stroke="#1e2a3a" stroke-width="1"/>
+            <!-- Data shape -->
+            <polygon id="radar-data"
+              points="150,68 218,110 214,188 150,228 84,190 80,112"
+              fill="rgba(74,158,255,0.14)" stroke="#4a9eff" stroke-width="2" stroke-linejoin="round"/>
+            <!-- Axis vertices -->
+            <circle cx="150" cy="68"  r="4" fill="#4a9eff"/>
+            <circle cx="218" cy="110" r="4" fill="#1abc9c"/>
+            <circle cx="214" cy="188" r="4" fill="#a78bfa"/>
+            <circle cx="150" cy="228" r="4" fill="#f59e0b"/>
+            <circle cx="84"  cy="190" r="4" fill="#fb7185"/>
+            <circle cx="80"  cy="112" r="4" fill="#e879f9"/>
+            <!-- Labels -->
+            <text x="150" y="38"  text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Readability</text>
+            <text x="246" y="107" text-anchor="start"  fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Vocabulary</text>
+            <text x="246" y="196" text-anchor="start"  fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Rhythm</text>
+            <text x="150" y="268" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Style</text>
+            <text x="52"  y="196" text-anchor="end"    fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Pacing</text>
+            <text x="52"  y="107" text-anchor="end"    fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">Vitality</text>
+          </svg>
+        </div>
+
+        <div class="radar-metrics">
+          <p style="font-size:13px;color:var(--text-3);margin-bottom:8px;line-height:1.6;">
+            Six industry metrics on one screen. See where your prose excels and where it needs work — at a glance.
+          </p>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--blue)">Readability</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--blue)" data-w="78%"></div></div>
+            <span class="metric-val">78</span>
+          </div>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--teal)">Vocabulary</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--teal)" data-w="62%"></div></div>
+            <span class="metric-val">62</span>
+          </div>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--purple)">Rhythm</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--purple)" data-w="84%"></div></div>
+            <span class="metric-val">84</span>
+          </div>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--amber)">Style</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--amber)" data-w="71%"></div></div>
+            <span class="metric-val">71</span>
+          </div>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--coral)">Pacing</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--coral)" data-w="55%"></div></div>
+            <span class="metric-val" style="color:var(--amber)">Brisk</span>
+          </div>
+          <div class="metric-row">
+            <span class="metric-label" style="color:var(--pink)">Vitality</span>
+            <div class="bar-track"><div class="bar-fill-sm" style="background:var(--pink)" data-w="69%"></div></div>
+            <span class="metric-val">69</span>
+          </div>
+          <p style="font-size:11px;color:var(--text-4);margin-top:10px;line-height:1.5;">
+            Includes: Flesch, Flesch-Kincaid, ARI, Coleman-Liau, Gunning Fog, SMOG, MATTR, Dialogue Ratio, Pacing Index, Adverb Density, Filler Word %, and more.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Story Structure tab -->
+    <div class="tab-panel" id="tab-structure">
+      <div class="barchart-card reveal">
+        <div class="barchart-header">
+          <div class="barchart-title">Words per Chapter</div>
+          <div class="barchart-sub">Act weight distribution &nbsp;·&nbsp; Act 1 <span style="color:var(--blue)">&#9632;</span> &nbsp; Act 2 <span style="color:var(--teal)">&#9632;</span> &nbsp; Act 3 <span style="color:var(--purple)">&#9632;</span></div>
+        </div>
+        <div class="bar-rows" id="structure-chart">
+          <!-- Generated by main.js -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Progress tab -->
+    <div class="tab-panel" id="tab-progress">
+      <div class="heatmap-card reveal">
+        <div class="heatmap-top">
+          <span class="heatmap-title">Writing Activity — Last 12 Months</span>
+          <div class="hmap-stats">
+            <div class="hmap-stat">
+              <div class="val" style="color:var(--blue)">87,244</div>
+              <div class="lbl">Words Written</div>
+            </div>
+            <div class="hmap-stat">
+              <div class="val" style="color:var(--green)">214</div>
+              <div class="lbl">Sessions</div>
+            </div>
+            <div class="hmap-stat">
+              <div class="val" style="color:var(--amber)">3,892</div>
+              <div class="lbl">Best Day</div>
+            </div>
+          </div>
+        </div>
+        <div class="heatmap-grid" id="heatmap-grid">
+          <!-- Generated by main.js -->
+        </div>
+        <p style="font-size:11px;color:var(--text-4);margin-top:12px;">
+          &#9632; Less &nbsp;&nbsp;
+          <span style="color:rgba(74,158,255,0.25)">&#9632;</span>
+          <span style="color:rgba(74,158,255,0.50)">&#9632;</span>
+          <span style="color:rgba(74,158,255,0.75)">&#9632;</span>
+          <span style="color:rgba(74,158,255,1.0)">&#9632;</span>
+          &nbsp;&nbsp; More
+        </p>
+      </div>
+    </div>
+
+    <!-- Screenshots tab -->
+    <div class="tab-panel" id="tab-screenshots">
+      <div class="ac-wrap reveal">
+        <div class="hero-carousel">
+          <img class="hc-slide active screenshot" src="images/Charts.png"          alt="Analytics overview">
+          <img class="hc-slide screenshot"        src="images/WritingStyle.png"    alt="Writing Style dashboard">
+          <img class="hc-slide screenshot"        src="images/Style.png"           alt="Style analysis">
+          <img class="hc-slide screenshot"        src="images/Readability.png"     alt="Readability metrics">
+          <img class="hc-slide screenshot"        src="images/Vocabulary.png"      alt="Vocabulary metrics">
+          <img class="hc-slide screenshot"        src="images/Pacing.png"          alt="Pacing analysis">
+          <img class="hc-slide screenshot"        src="images/Rythm.png"           alt="Rhythm metrics">
+          <img class="hc-slide screenshot"        src="images/Paragraphs.png"      alt="Paragraph analysis">
+          <img class="hc-slide screenshot"        src="images/EntityFrequency.png" alt="Entity frequency">
+          <img class="hc-slide screenshot"        src="images/Goals.png"           alt="Session goals">
+          <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+          <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+          <div class="hc-dots">
+            <button class="hc-dot active" data-idx="0" aria-label="Slide 1"></button>
+            <button class="hc-dot"        data-idx="1" aria-label="Slide 2"></button>
+            <button class="hc-dot"        data-idx="2" aria-label="Slide 3"></button>
+            <button class="hc-dot"        data-idx="3" aria-label="Slide 4"></button>
+            <button class="hc-dot"        data-idx="4" aria-label="Slide 5"></button>
+            <button class="hc-dot"        data-idx="5" aria-label="Slide 6"></button>
+            <button class="hc-dot"        data-idx="6" aria-label="Slide 7"></button>
+            <button class="hc-dot"        data-idx="7" aria-label="Slide 8"></button>
+            <button class="hc-dot"        data-idx="8" aria-label="Slide 9"></button>
+            <button class="hc-dot"        data-idx="9" aria-label="Slide 10"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════════════════ ENTITIES ════════════════════════ -->
+<section id="entities">
+  <div class="container">
+    <div class="feat-layout">
+      <div class="reveal">
+        <div class="entity-panel">
+          <div class="ep-header">
+            <span>Entities</span>
+            <span class="ep-sub">In This Scene</span>
+          </div>
+          <div class="ep-search"><input type="text" placeholder="Search entities..." readonly></div>
+
+          <div class="ep-group-label">&#9660; Characters (4)</div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--teal)"></span>
+            <span class="ep-name">Elena Marsh</span>
+            <span class="ep-count">&#215;14</span>
+            <span class="ep-tag ep-tag-char">protagonist</span>
+          </div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--teal)"></span>
+            <span class="ep-name">Marcus Cole</span>
+            <span class="ep-count">&#215;8</span>
+          </div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--teal)"></span>
+            <span class="ep-name">The Warden</span>
+            <span class="ep-count">&#215;3</span>
+          </div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--teal)"></span>
+            <span class="ep-name">Dr. Voss</span>
+            <span class="ep-count">&#215;1</span>
+          </div>
+
+          <div class="ep-group-label">&#9660; Locations (2)</div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--blue)"></span>
+            <span class="ep-name">The Facility</span>
+            <span class="ep-count">&#215;6</span>
+            <span class="ep-tag ep-tag-loc">primary</span>
+          </div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--blue)"></span>
+            <span class="ep-name">East Wing, Floor 3</span>
+            <span class="ep-count">&#215;2</span>
+          </div>
+
+          <div class="ep-group-label">&#9660; Items (1)</div>
+          <div class="ep-item">
+            <span class="ep-dot" style="background:var(--amber)"></span>
+            <span class="ep-name">The Red Keycard</span>
+            <span class="ep-count">&#215;4</span>
+            <span class="ep-tag ep-tag-item">MacGuffin</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="feat-copy reveal reveal-d2">
+        <span class="section-label">Entities</span>
+        <h2>Your story's cast,<br><span class="gradient-teal">mapped and tracked.</span></h2>
+        <p>Every character, location, item, and event in your story — tracked in a live panel alongside the editor. When you're writing a scene, Draftwell Pro surfaces exactly which entities appear in it. No digging.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-teal">&#128279;</div>
+            <div class="feature-text">
+              <h4>Relationship Mapping</h4>
+              <p>Link any entity to any other — with a direction, a label, an in-story date, and a description.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#128269;</div>
+            <div class="feature-text">
+              <h4>Name Scan</h4>
+              <p>Auto-detects recurring capitalized names in your prose you haven't formally defined yet. Surfaces the characters you forgot to track.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#128202;</div>
+            <div class="feature-text">
+              <h4>Mention Analytics</h4>
+              <p>See which scenes mention each entity and how often. Reveals the chapters where a character goes completely dark.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ SEARCH ══════════════════════════ -->
+<section id="search" class="section-alt">
+  <div class="container">
+    <div class="feat-layout">
+      <div class="feat-copy reveal">
+        <span class="section-label">Search</span>
+        <h2>Find anything<br><span class="gradient-text">across your entire book.</span></h2>
+        <p>One search bar. Scene prose, scene names, chapter names, notes, outlines, brainstorming, entity names, relationships, and every custom research tab — all indexed, all searchable, all click-to-navigate.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#128269;</div>
+            <div class="feature-text">
+              <h4>Full Manuscript Coverage</h4>
+              <p>Searches the body text of every scene, plus chapter names, scene names, scene notes, book outline, brainstorming, and all custom tabs you've created.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-teal">&#128101;</div>
+            <div class="feature-text">
+              <h4>Entity &amp; Relationship Search</h4>
+              <p>Every tracked character, location, item, event, and entity relationship is searchable by name — surfaced alongside prose results in one unified view.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#10145;</div>
+            <div class="feature-text">
+              <h4>Click to Jump</h4>
+              <p>Every result links directly to its location. Click a scene result — you land on that scene. No hunting through the sidebar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-d2">
+        <img src="images/Search.png" alt="Draftwell Pro full-text search" class="screenshot section-screenshot">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════ QUERY TRACKER ═══════════════════════ -->
+<section id="query-tracker" class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Query Tracker</span>
+      <h2>From first query to<br><span class="gradient-text">"we'd like to offer..."</span></h2>
+      <p>A full submission pipeline built as a drag-and-drop Kanban board. Every agent, publisher, and contest — tracked with dates, follow-ups, and a complete paper trail.</p>
+    </div>
+
+    <div class="kanban-scroll reveal">
+      <div class="kanban-board">
+
+        <div class="k-col">
+          <div class="k-col-head col-research">
+            <span>Research</span>
+            <span class="k-count" style="background:rgba(148,163,184,0.14)">2</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-type ktype-agent">Agent</div>
+              <div class="kcard-name">Sarah Levine</div>
+              <div class="kcard-agency">The Levine Agency</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head col-queried">
+            <span>Queried</span>
+            <span class="k-count" style="background:rgba(74,158,255,0.14)">5</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-type ktype-agent">Agent</div>
+              <div class="kcard-name">Michael Torres</div>
+              <div class="kcard-agency">Curtis Brown</div>
+              <div class="kcard-prog"><div class="kcard-prog-fill" style="width:44%;background:var(--blue)"></div></div>
+              <div class="kcard-days">38 / 90 days</div>
+            </div>
+            <div class="kcard">
+              <div class="kcard-type ktype-pub">Publisher</div>
+              <div class="kcard-name">Tor Books</div>
+              <div class="kcard-agency">Macmillan</div>
+              <div class="kcard-prog"><div class="kcard-prog-fill" style="width:82%;background:var(--amber)"></div></div>
+              <div class="kcard-days" style="color:var(--amber)">147 / 180 days</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head col-partial">
+            <span>Partial Req.</span>
+            <span class="k-count" style="background:rgba(245,158,11,0.14)">1</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-type ktype-agent">Agent</div>
+              <div class="kcard-name">Claire Whitmore</div>
+              <div class="kcard-agency">Folio Literary</div>
+              <div class="kcard-prog"><div class="kcard-prog-fill" style="width:27%;background:var(--amber)"></div></div>
+              <div class="kcard-days">12 / 45 days</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head col-full">
+            <span>Full Req.</span>
+            <span class="k-count" style="background:rgba(80,200,120,0.14)">1</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-type ktype-agent">Agent</div>
+              <div class="kcard-name">David Park</div>
+              <div class="kcard-agency">WME Books</div>
+              <div class="kcard-prog"><div class="kcard-prog-fill" style="width:60%;background:var(--green)"></div></div>
+              <div class="kcard-days">54 / 90 days</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head col-rejected">
+            <span>Rejected</span>
+            <span class="k-count" style="background:rgba(251,113,133,0.14)">12</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard" style="opacity:0.55">
+              <div class="kcard-type ktype-agent">Agent</div>
+              <div class="kcard-name">Jane Elliott</div>
+              <div class="kcard-agency">ICM Partners</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head col-accepted">
+            <span>Accepted &#127881;</span>
+            <span class="k-count" style="background:rgba(232,121,249,0.14)">0</span>
+          </div>
+          <div class="k-col-body" style="border-style:dashed">
+            <div class="kcard-empty">
+              &#127882;<br>Your moment is coming.<br>
+              <span style="font-size:10px;opacity:0.6">Confetti fires on Accepted.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:18px;font-size:13px;color:var(--text-4)">
+      Drag cards between columns to update status &nbsp;·&nbsp; Status changes log automatically in the comment thread &nbsp;·&nbsp; Archive old queries without losing history
+    </p>
+  </div>
+</section>
+
+<!-- ════════════════════ TIME TRACKING ═══════════════════════ -->
+<section id="time-tracking">
+  <div class="container">
+    <div class="feat-layout flip">
+      <div class="feat-copy reveal reveal-d2">
+        <span class="section-label">Time Tracking</span>
+        <h2>Clock in. Clock out.<br><span class="gradient-text">Know what your writing time is worth.</span></h2>
+        <p>Draftwell Pro tracks every writing session automatically. Open a book, start typing — you're clocked in. Step away for 30 minutes — you're clocked out. No buttons to push. No logging.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-green">&#9203;</div>
+            <div class="feature-text">
+              <h4>Auto Clock-In on First Keypress</h4>
+              <p>The timer starts when you start writing. Elapsed time shows live in the top navigation bar.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-amber">&#128564;</div>
+            <div class="feature-text">
+              <h4>30-Minute Inactivity Timeout</h4>
+              <p>Step away from your desk and the session ends cleanly. No runaway timer logging three hours of you staring at the ceiling.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-coral">&#9889;</div>
+            <div class="feature-text">
+              <h4>Words Per Minute Velocity</h4>
+              <p>Derived automatically from word count snapshots at clock-in and clock-out, across all sessions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="time-stats">
+          <div class="tstat-card"><div class="tval" style="color:var(--green)">214h</div><div class="tlbl">Total Time</div></div>
+          <div class="tstat-card"><div class="tval" style="color:var(--blue)">47m</div><div class="tlbl">Avg Session</div></div>
+          <div class="tstat-card"><div class="tval" style="color:var(--amber)">2h 38m</div><div class="tlbl">Longest Session</div></div>
+          <div class="tstat-card"><div class="tval" style="color:var(--coral)">312</div><div class="tlbl">Sessions</div></div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="session-list">
+          <div class="slist-head">
+            <span>Date</span>
+            <span>Duration</span>
+            <span>Start</span>
+            <span style="color:var(--green)">Words</span>
+          </div>
+          <div class="slist-row">
+            <span>Jun 07, 2025</span><span>1h 12m</span><span>9:14 AM</span><span style="color:var(--green)">+847</span>
+          </div>
+          <div class="slist-row">
+            <span>Jun 06, 2025</span><span>0h 38m</span><span>10:02 PM</span><span style="color:var(--green)">+412</span>
+          </div>
+          <div class="slist-row">
+            <span>Jun 05, 2025</span><span>2h 14m</span><span>8:30 AM</span><span style="color:var(--green)">+2,103</span>
+          </div>
+          <div class="slist-row">
+            <span>Jun 03, 2025</span><span>0h 22m</span><span>11:45 PM</span><span style="color:var(--green)">+188</span>
+          </div>
+          <div class="slist-row">
+            <span>Jun 01, 2025</span><span>1h 47m</span><span>7:15 AM</span><span style="color:var(--green)">+1,644</span>
+          </div>
+          <div class="slist-row">
+            <span>May 30, 2025</span><span>0h 55m</span><span>2:30 PM</span><span style="color:var(--green)">+701</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ GOALS ═════════════════════════ -->
+<section id="goals" class="section-alt">
+  <div class="container">
+    <div class="feat-layout">
+      <div class="reveal">
+        <div class="goal-card">
+          <div class="goal-head">
+            <span class="goal-title">Today's session — 500 words</span>
+            <span class="goal-badge badge-active">Active</span>
+          </div>
+          <div class="goal-bar-track">
+            <div class="goal-bar-fill" data-w="72%"></div>
+          </div>
+          <div class="goal-meta"><span>360 / 500 words</span><span>72%</span></div>
+        </div>
+        <div class="goal-card">
+          <div class="goal-head">
+            <span class="goal-title">Chapter 7 draft — 2,000 words</span>
+            <span class="goal-badge badge-complete">Complete &#127882;</span>
+          </div>
+          <div class="goal-bar-track">
+            <div class="goal-bar-fill done" data-w="100%"></div>
+          </div>
+          <div class="goal-meta"><span>2,114 / 2,000 words</span><span>&#10003; Done</span></div>
+        </div>
+        <div class="goal-card">
+          <div class="goal-head">
+            <span class="goal-title">Weekend marathon — 5,000 words</span>
+            <span class="goal-badge badge-complete">Complete &#127882;</span>
+          </div>
+          <div class="goal-bar-track">
+            <div class="goal-bar-fill done" data-w="100%"></div>
+          </div>
+          <div class="goal-meta"><span>5,341 / 5,000 words</span><span>&#10003; Done</span></div>
+        </div>
+      </div>
+
+      <div class="feat-copy reveal reveal-d2">
+        <span class="section-label">Goals</span>
+        <h2>Set the target.<br><span class="gradient-text">Fill the bar.</span></h2>
+        <p>Session goals are simple: pick a word count target, watch Draftwell Pro track your progress in real time as you write. Confetti fires when you hit it.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#127919;</div>
+            <div class="feature-text">
+              <h4>Live Progress Bar</h4>
+              <p>Set a word target. Watch the bar fill as you type. As simple as it sounds.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-green">&#127882;</div>
+            <div class="feature-text">
+              <h4>Confetti on Completion</h4>
+              <p>Because finishing deserves a moment. Confetti fires when you cross the line.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#128203;</div>
+            <div class="feature-text">
+              <h4>Active &amp; Completed History</h4>
+              <p>Every goal stays on record. Total words written toward goals, tracked across all sessions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ TO DO ═══════════════════════════ -->
+<section class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">To Do Board</span>
+      <h2>The tasks that don't belong<br>in the manuscript — but have to live somewhere.</h2>
+      <p>A Kanban board for writing-adjacent work: research to finish, scenes to rewrite, people to email. Anything with a status and a deadline.</p>
+    </div>
+
+    <div class="kanban-scroll reveal">
+      <div class="kanban-board">
+
+        <div class="k-col">
+          <div class="k-col-head" style="border-color:var(--text-4);color:var(--text-3)">
+            <span>To Do</span>
+            <span class="k-count" style="background:rgba(148,163,184,0.14)">4</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-name">Research Victorian asylum records</div>
+              <div class="kcard-agency" style="margin-top:4px">Due Jun 15</div>
+              <div class="kcard-prog" style="margin-top:8px"><div class="kcard-prog-fill" style="width:0%;background:var(--text-4)"></div></div>
+            </div>
+            <div class="kcard">
+              <div class="kcard-name">Outline Act 3 reversal</div>
+              <div class="kcard-agency" style="margin-top:4px">No due date</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head" style="border-color:var(--blue);color:var(--blue)">
+            <span>In Progress</span>
+            <span class="k-count" style="background:rgba(74,158,255,0.14)">2</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-name">Rewrite Ch. 4 — Elena's intro</div>
+              <div class="kcard-agency" style="margin-top:4px">Due Jun 10</div>
+              <div class="kcard-prog" style="margin-top:8px"><div class="kcard-prog-fill" style="width:60%;background:var(--blue)"></div></div>
+              <div class="kcard-days">Mentions: <span style="color:var(--teal)">Elena Marsh ↗</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head" style="border-color:var(--amber);color:var(--amber)">
+            <span>Blocked</span>
+            <span class="k-count" style="background:rgba(245,158,11,0.14)">1</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard">
+              <div class="kcard-name">Get sensitivity read for Warden scenes</div>
+              <div class="kcard-agency" style="margin-top:4px;color:var(--amber)">Waiting on beta reader</div>
+              <div class="kcard-days" style="margin-top:8px">Mentions: <span style="color:var(--teal)">The Warden ↗</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="k-col">
+          <div class="k-col-head" style="border-color:var(--green);color:var(--green)">
+            <span>Done</span>
+            <span class="k-count" style="background:rgba(80,200,120,0.14)">8</span>
+          </div>
+          <div class="k-col-body">
+            <div class="kcard" style="opacity:0.55">
+              <div class="kcard-name">Draft query letter</div>
+              <div class="kcard-agency" style="margin-top:4px">Completed May 12</div>
+            </div>
+            <div class="kcard" style="opacity:0.55">
+              <div class="kcard-name">Write synopsis — 1 page</div>
+              <div class="kcard-agency" style="margin-top:4px">Completed May 18</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:18px;font-size:13px;color:var(--text-4)">
+      Write a character name in a task and Draftwell Pro surfaces a direct link to that entity's detail view &nbsp;·&nbsp; Start &amp; due dates generate a progress bar that turns amber at 80%, red when overdue
+    </p>
+  </div>
+</section>
+
+<!-- ══════════════════════ EXPORT ════════════════════════════ -->
+<section id="export">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Export</span>
+      <h2>Your manuscript,<br>ready to send anywhere.</h2>
+      <p>When you're ready to get your book out of Draftwell Pro and into the world, the exporter gives you full control over how it looks.</p>
+    </div>
+    <div class="export-grid reveal">
+      <div class="export-card">
+        <div class="export-icon">&#128196;</div>
+        <div class="export-name">DOCX</div>
+        <div class="export-desc">Microsoft Word format. Compatible with every publisher, agent, and writing workshop on earth.</div>
+      </div>
+      <div class="export-card">
+        <div class="export-icon">&#128241;</div>
+        <div class="export-name">EPUB</div>
+        <div class="export-desc">The standard ebook format. Includes metadata, cover image, and series info.</div>
+      </div>
+      <div class="export-card">
+        <div class="export-icon">&#127760;</div>
+        <div class="export-name">HTML</div>
+        <div class="export-desc">Single-file or multi-file export, with optional table of contents included.</div>
+      </div>
+      <div class="export-card">
+        <div class="export-icon">&#128209;</div>
+        <div class="export-name">PDF</div>
+        <div class="export-desc">Print-ready PDF with optional AES-128 password protection for open and permissions.</div>
+      </div>
+    </div>
+    <div class="export-opts reveal reveal-d2">
+      <div class="export-opts-title">Every export option you'd actually need</div>
+      <div class="chip-cloud">
+        <span class="chip">Author name</span>
+        <span class="chip">Copyright notice</span>
+        <span class="chip">ISBN / LoC Number</span>
+        <span class="chip">Fiction disclaimer</span>
+        <span class="chip">Dedication</span>
+        <span class="chip">Body font &amp; size</span>
+        <span class="chip">Line spacing</span>
+        <span class="chip">Paragraph style</span>
+        <span class="chip">Chapter heading format</span>
+        <span class="chip">Scene break style</span>
+        <span class="chip">Page margins</span>
+        <span class="chip">Running header</span>
+        <span class="chip">Table of contents</span>
+        <span class="chip">Cover image</span>
+        <span class="chip">Heading font &amp; color</span>
+        <span class="chip">Notes companion DOCX</span>
+        <span class="chip">PDF password encryption</span>
+      </div>
+    </div>
+    <div class="reveal reveal-d3" style="max-width:860px;margin:40px auto 0;">
+      <img src="images/Export.png" alt="Export dialog" class="screenshot section-screenshot">
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ PRIVACY ═════════════════════════ -->
+<section id="privacy" class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Privacy</span>
+      <h2>Your words. Your machine.<br><span class="gradient-teal">Your rules.</span></h2>
+      <p>Draftwell Pro runs entirely on your own computer. Nothing is ever sent to a server. No account required. No cloud. No telemetry.</p>
+    </div>
+    <div class="privacy-grid">
+      <div class="privacy-card reveal reveal-d1">
+        <div class="privacy-icon">&#128274;</div>
+        <h3>Local-First</h3>
+        <p>All data stays on your machine. No internet connection required to write. No sync. No server. No outage that costs you your manuscript.</p>
+      </div>
+      <div class="privacy-card reveal reveal-d2">
+        <div class="privacy-icon">&#128190;</div>
+        <h3>One File Per Book</h3>
+        <p>Each book is a single <code>.auth</code> file. Back it up, move it, copy it to a USB drive — it's just a file.</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ REVISION HISTORY ═════════════════════ -->
+<section id="revision">
+  <div class="container">
+    <div class="feat-layout flip">
+      <div class="feat-copy reveal reveal-d2">
+        <span class="section-label">Revision History</span>
+        <h2>Every version of your book,<br><span class="gradient-text">quietly saved in the background.</span></h2>
+        <p>Draftwell Pro runs a GFS (Grandfather-Father-Son) backup system automatically. Every time you open a book, a timestamped snapshot is created. If you blew up a chapter at 2am — it's still there.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#128197;</div>
+            <div class="feature-text">
+              <h4>Smart Retention Policy</h4>
+              <p>Last 5 opens &nbsp;·&nbsp; 7 daily &nbsp;·&nbsp; 4 weekly &nbsp;·&nbsp; 12 monthly. Never an infinite pile — capped at ~28 backups per book.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#128260;</div>
+            <div class="feature-text">
+              <h4>Side-by-Side Comparison</h4>
+              <p>Browse your backup history and compare any snapshot to the current version before restoring.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="hero-carousel">
+          <img class="hc-slide active screenshot" src="images/Revision1.png" alt="Revision history list">
+          <img class="hc-slide screenshot"        src="images/Revision2.png" alt="Revision comparison view">
+          <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+          <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+          <div class="hc-dots">
+            <button class="hc-dot active" data-idx="0" aria-label="Slide 1"></button>
+            <button class="hc-dot"        data-idx="1" aria-label="Slide 2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ WHAT IT'S NOT ════════════════════════ -->
+<section class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">No Compromises</span>
+      <h2>What Draftwell Pro is not.</h2>
+      <p>Worth being direct about.</p>
+    </div>
+    <div class="not-grid">
+      <div class="not-card reveal reveal-d1" style="border-color:rgba(232,121,249,0.25)">
+        <div class="ni">&#129302;</div>
+        <h3>Not AI</h3>
+        <p>Draftwell Pro does not generate, suggest, or rewrite your prose. There is no autocomplete. Every word in your manuscript is yours.</p>
+      </div>
+      <div class="not-card reveal reveal-d2" style="border-color:rgba(251,113,133,0.25)">
+        <div class="ni">&#128179;</div>
+        <h3>Not a Subscription</h3>
+        <p>Buy it once. No monthly fee. No annual renewal. No "your files are locked until you upgrade" gotcha.</p>
+      </div>
+      <div class="not-card reveal reveal-d3" style="border-color:rgba(74,158,255,0.25)">
+        <div class="ni">&#9729;</div>
+        <h3>Not Cloud-Based</h3>
+        <p>No account required. No data leaves your machine. No server outage that loses your work. No company with access to your story.</p>
+      </div>
+      <div class="not-card reveal reveal-d4" style="border-color:rgba(245,158,11,0.25)">
+        <div class="ni">&#9881;</div>
+        <h3>Not Scrivener</h3>
+        <p>No compile step. No corkboard. No snowflake method wizard. No 47 preference panels. A sidebar, an editor, and a lot of data about how you're actually writing.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════════════ PRICE ═══════════════════════════ -->
+<section id="price">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Pricing</span>
+      <h2>Simple pricing.<br>No surprises.</h2>
+    </div>
+    <div class="price-outer">
+
+      <!-- Trial card -->
+      <div class="price-card price-card-trial reveal reveal-d1">
+        <div class="price-badge-top price-badge-trial">Free Trial &nbsp;·&nbsp; Windows Desktop App</div>
+        <div class="price-amount price-amount-trial">Free</div>
+        <div class="price-note">10 hours of active writing time. No credit card. No sign-up. The full app on the clock.</div>
+        <ul class="price-features-list">
+          <li>Every feature, fully unlocked</li>
+          <li>10 hours measured while you&#39;re actively typing</li>
+          <li>All your data stays yours — activate anytime</li>
+        </ul>
+        <div class="price-cta">
+          <a href="#download" class="btn btn-ghost btn-lg" id="download">&#11015; Download Free Trial</a>
+          <span class="price-os-note">Windows 10 / 11 &nbsp;·&nbsp; 64-bit</span>
+        </div>
+      </div>
+
+      <!-- Full version card -->
+      <div class="price-card reveal reveal-d2">
+        <div class="price-badge-top">One-time purchase &nbsp;·&nbsp; Windows Desktop App</div>
+        <!--
+          ╔══════════════════════════════╗
+          ║  TODO: SET PRICE BEFORE      ║
+          ║  LAUNCH — replace $-- below  ║
+          ╚══════════════════════════════╝
+        -->
+        <div class="price-amount"><sup>$</sup>--</div>
+        <div class="price-note">Pay once. Own it forever. No subscription, no renewal, no expiry.</div>
+        <ul class="price-features-list">
+          <li>Full writing environment &mdash; Book &rarr; Chapter &rarr; Scene</li>
+          <li>Rich text editor with auto-save every 5 seconds</li>
+          <li>Entity tracking &amp; relationship mapping</li>
+          <li>Six analytical dashboards</li>
+          <li>Automatic time tracking &amp; session history</li>
+          <li>Session goals with live progress bar</li>
+          <li>Full-text search across the entire book</li>
+          <li>Query Tracker Kanban board</li>
+          <li>To Do Kanban board</li>
+          <li>DOCX, EPUB, HTML &amp; PDF export</li>
+          <li>GFS revision history — ~28 backups per book</li>
+          <li>100% local &mdash; your data never leaves your machine</li>
+        </ul>
+        <div class="price-cta">
+          <!--
+            ╔══════════════════════════════╗
+            ║  TODO: REPLACE href="#" WITH ║
+            ║  REAL BUY / CHECKOUT LINK    ║
+            ╚══════════════════════════════╝
+          -->
+          <a href="#" class="btn btn-primary btn-lg">&#128179; Buy Now</a>
+          <span class="price-os-note">Windows 10 / 11 &nbsp;·&nbsp; 64-bit</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════════════════ FOOTER ═════════════════════════ -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-logo">Draftwell <span>Pro</span></div>
+    <ul class="footer-links">
+      <li><a href="#editor">Features</a></li>
+      <li><a href="#analytics">Analytics</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#query-tracker">Query Tracker</a></li>
+      <li><a href="#privacy">Privacy</a></li>
+      <li><a href="#price">Pricing</a></li>
+    </ul>
+    <div class="footer-copy">&copy; 2025 Draftwell Pro. Designed by a writer, for writers.</div>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <img class="lb-img" src="" alt="">
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
