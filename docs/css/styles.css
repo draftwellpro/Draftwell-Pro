@@ -939,6 +939,9 @@ h1.hero-headline {
   letter-spacing: 0;
   color: var(--text-3);
 }
+.price-sale-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+.price-was { font-size: 14px; color: var(--text-4); text-decoration: line-through; }
+.chip-sale { font-size: 12px; font-weight: 600; color: var(--amber); background: rgba(245,158,11,0.12); border: 1px solid rgba(245,158,11,0.3); border-radius: 20px; padding: 3px 10px; white-space: nowrap; }
 .price-note { font-size: 14px; color: var(--text-4); margin-bottom: 28px; }
 .price-features-list {
   list-style: none;
