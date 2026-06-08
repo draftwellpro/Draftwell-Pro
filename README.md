@@ -23,11 +23,11 @@
 
 **[Download for Windows](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — Windows 10 / 11 · 64-bit
 
-For a full feature walkthrough, visit **[draftwellpro.github.io/Draftwell-Pro](https://draftwellpro.github.io/Draftwell-Pro/)**.
-
 ---
 
 ## Features
+For a full feature walkthrough, visit **[draftwellpro.github.io/Draftwell-Pro](https://draftwellpro.github.io/Draftwell-Pro/)**.
+
 
 ### Writing Environment
 
