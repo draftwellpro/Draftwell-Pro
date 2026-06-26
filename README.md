@@ -22,7 +22,7 @@
 
 ## Download
 
-**[Download Installers](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)**
+**[Download Installer for Windows](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)**
 
 **[Download for macOS](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — macOS 12+ · Apple Silicon (arm64)
 
