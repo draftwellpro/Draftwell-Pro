@@ -21,7 +21,7 @@
 
 ## Download
 
-**[Download for Windows](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — Windows 10 / 11 · 64-bit
+**[Download Installers](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — Windows 10 / 11 · 64-bit
 
 ---
 
