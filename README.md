@@ -7,14 +7,15 @@
 <p align="center"><strong>Write the book. All of it.</strong></p>
 
 <p align="center">
-  Draftwell Pro is a local Windows desktop app that organizes your book, tracks your time, analyzes your prose, and manages your submission pipeline — all on your own machine, with no subscription and no AI.
+  Draftwell Pro is a local desktop app that organizes your book, tracks your time, analyzes your prose, and manages your submission pipeline — all on your own machine, with no subscription and no AI.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/No%20AI-%E2%88%85-blue" alt="No AI">
   <img src="https://img.shields.io/badge/No%20Subscription-%E2%88%85-teal" alt="No Subscription">
   <img src="https://img.shields.io/badge/Local--First-%F0%9F%94%92-green" alt="Local First">
-  <img src="https://img.shields.io/badge/Windows%20Desktop%20App-%E2%8A%9E-purple" alt="Windows">
+  <img src="https://img.shields.io/badge/Windows%20App-%E2%8A%9E-purple" alt="Windows">
+  <img src="https://img.shields.io/badge/macOS%20App-%E2%8A%9E-555555?logo=apple" alt="macOS">
 </p>
 
 ---
@@ -22,6 +23,8 @@
 ## Download
 
 **[Download for Windows](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — Windows 10 / 11 · 64-bit
+
+**[Download for macOS](https://github.com/draftwellpro/Draftwell-Pro/releases/latest)** — macOS 12+ · Apple Silicon (arm64)
 
 ---
 
