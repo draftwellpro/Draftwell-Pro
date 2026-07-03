@@ -160,12 +160,26 @@ Export options include: author name, copyright notice, ISBN/LoC number, fiction 
 
 ---
 
+### Cloud Sync
+
+Optional, opt-in backup and sync to your personal Google Drive or Dropbox. Your books go directly to your own storage — no Draftwell Pro server ever sees them.
+
+- **Your Cloud Account** — books sync to your Google Drive or Dropbox, not to us; we never have access to your files or your account
+- **Multi-Device Backup** — install on a second machine and pick up exactly where you left off; your `.auth` files follow you
+- **Conflict Resolution** — edited the same book on two machines? Draftwell Pro detects the conflict and walks you through a scene-by-scene diff so you decide what to keep
+- **100% Opt-In** — disabled by default; connect when you want it, disconnect whenever you like
+
+Works with **Google Drive** and **Dropbox**.
+
+---
+
 ### Privacy
 
-Draftwell Pro runs entirely on your own computer. Nothing is ever sent to a server. No account required. No cloud. No telemetry.
+Draftwell Pro is local-first. Your manuscript, notes, entities, and writing data live on your own machine. No account required. No telemetry.
 
 - **Local-First** — all data stays on your machine; no internet connection required to write
 - **One File Per Book** — each book is a single `.auth` file; back it up, move it, copy it to a USB drive
+- **Optional Cloud Sync** — if you choose to enable it, your files go to your own Google Drive or Dropbox account; see above
 
 ---
 
@@ -187,7 +201,7 @@ Draftwell Pro runs a GFS (Grandfather-Father-Son) backup system automatically. E
 
 - **Not AI** — no generated, suggested, or rewritten prose; no autocomplete; every word is yours
 - **Not a Subscription** — buy once, own forever; no monthly fee, no annual renewal
-- **Not Cloud-Based** — no account, no data leaves your machine, no server outage
+- **Not Cloud-Dependent** — no account required; optional cloud sync sends files to your own Google Drive or Dropbox, never to our servers
 - **Not Scrivener** — no compile step, no corkboard, no preference panels; a sidebar, an editor, and data about how you're actually writing
 
 ---
