@@ -21,6 +21,7 @@
     <div class="nav-logo"><img src="images/logo.png" alt="Draftwell Pro"> Draftwell <span>Pro</span></div>
     <ul class="nav-links">
       <li><a href="#editor">Editor</a></li>
+      <li><a href="#import">Import &amp; Outline</a></li>
       <li><a href="#analytics">Analytics</a></li>
       <li><a href="#entities">Entities</a></li>
       <li><a href="#search">Search</a></li>
@@ -60,14 +61,16 @@
 
   <div class="hero-mockup reveal reveal-d2">
     <div class="hero-carousel">
-      <img class="hc-slide active screenshot" src="images/MainEditor.png"      alt="Writing environment">
-      <img class="hc-slide screenshot"        src="images/Goals.png"           alt="Session goals">
-      <img class="hc-slide screenshot"        src="images/WritingStyle.png"    alt="Writing style analytics">
-      <img class="hc-slide screenshot"        src="images/Readability.png"     alt="Readability metrics">
-      <img class="hc-slide screenshot"        src="images/Vocabulary.png"      alt="Vocabulary metrics">
-      <img class="hc-slide screenshot"        src="images/Rythm.png"           alt="Rhythm metrics">
-      <img class="hc-slide screenshot"        src="images/EntityFrequency.png" alt="Entity frequency">
-      <img class="hc-slide screenshot"        src="images/ToDo.png"            alt="To Do board">
+      <img class="hc-slide active screenshot" src="images/4BookEditor.png"      alt="Writing environment">
+      <img class="hc-slide screenshot"        src="images/9Goals.png"           alt="Session goals">
+      <img class="hc-slide screenshot"        src="images/11WritingStyle.png"   alt="Writing style analytics">
+      <img class="hc-slide screenshot"        src="images/12Readability.png"    alt="Readability metrics">
+      <img class="hc-slide screenshot"        src="images/13Vocabulary.png"     alt="Vocabulary metrics">
+      <img class="hc-slide screenshot"        src="images/14Rhythm.png"         alt="Rhythm metrics">
+      <img class="hc-slide screenshot"        src="images/19EntityFrequency.png" alt="Entity frequency">
+      <img class="hc-slide screenshot"        src="images/20Timeline.png"       alt="Entity relationship timeline">
+      <img class="hc-slide screenshot"        src="images/7Todo.png"           alt="To Do board">
+      <img class="hc-slide screenshot"        src="images/8TodoComment.png"    alt="To Do task detail">
       <img class="hc-slide screenshot"        src="images/QueryTracker1.png"   alt="Query tracker">
       <img class="hc-slide screenshot"        src="images/QueryTracker2.png"   alt="Query tracker detail">
       <img class="hc-slide screenshot"        src="images/Search.png"          alt="Full-text search">
@@ -85,6 +88,8 @@
         <button class="hc-dot"        data-idx="8"  aria-label="Slide 9"></button>
         <button class="hc-dot"        data-idx="9"  aria-label="Slide 10"></button>
         <button class="hc-dot"        data-idx="10" aria-label="Slide 11"></button>
+        <button class="hc-dot"        data-idx="11" aria-label="Slide 12"></button>
+        <button class="hc-dot"        data-idx="12" aria-label="Slide 13"></button>
       </div>
     </div>
   </div>
@@ -170,8 +175,100 @@
         </div>
       </div>
 
+      <div class="reveal reveal-d2" style="display:flex;flex-direction:column;gap:20px;">
+        <img src="images/1BookSelection.png" alt="Book selection screen" class="screenshot section-screenshot">
+        <img src="images/4BookEditor.png" alt="Draftwell Pro writing environment" class="screenshot section-screenshot">
+        <img src="images/5BookEditorEntity.png" alt="Writing environment with entity panel open" class="screenshot section-screenshot">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ IMPORT &amp; OUTLINE MODE ═══════════════════ -->
+<section id="import" class="section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Import &amp; Outline Mode</span>
+      <h2>Already have a draft?<br><span class="gradient-text">Bring it in. Then map it out.</span></h2>
+      <p>Starting a new book from scratch isn't the only path in. Import an existing manuscript, then plan the rest on a visual board built for rearranging chapters and scenes.</p>
+    </div>
+
+    <div class="feat-layout">
+      <div class="feat-copy reveal">
+        <span class="section-label">Import</span>
+        <h2>Bring in a Word document.<br><span class="gradient-text">Keep your structure.</span></h2>
+        <p>Select an existing <strong style="color:var(--text-1)">.docx</strong> file and import it straight into a book. No copy-pasting scene by scene.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-blue">&#128196;</div>
+            <div class="feature-text">
+              <h4>Select a Word File</h4>
+              <p>Point Draftwell Pro at any .docx manuscript you've already been writing in.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-teal">&#128209;</div>
+            <div class="feature-text">
+              <h4>Configure Chapters &amp; Scenes</h4>
+              <p>Choose how the document's headings and breaks map to chapters and scenes before anything is imported.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-purple">&#11015;</div>
+            <div class="feature-text">
+              <h4>One Import, Full Structure</h4>
+              <p>Confirm the mapping and Draftwell Pro builds out the full Book &rarr; Chapter &rarr; Scene hierarchy for you.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="reveal reveal-d2">
-        <img src="images/MainEditor.png" alt="Draftwell Pro writing environment" class="screenshot section-screenshot">
+        <div class="hero-carousel">
+          <img class="hc-slide active screenshot" src="images/2Importa.png" alt="Import a book — select a docx file">
+          <img class="hc-slide screenshot"        src="images/3Importb.png" alt="Configure chapter and scene detection">
+          <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+          <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+          <div class="hc-dots">
+            <button class="hc-dot active" data-idx="0" aria-label="Slide 1"></button>
+            <button class="hc-dot"        data-idx="1" aria-label="Slide 2"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feat-layout flip" style="margin-top:80px">
+      <div class="reveal">
+        <img src="images/6BookPlannerOutline.png" alt="Outline mode — chapter and scene planning board" class="screenshot section-screenshot">
+      </div>
+
+      <div class="feat-copy reveal reveal-d2">
+        <span class="section-label">Outline Mode</span>
+        <h2>Plan the whole book<br><span class="gradient-text">on one board.</span></h2>
+        <p>A corkboard-style planning view — lay out every chapter and scene as a card with its own synopsis, then drag to rearrange until the shape of the book is right.</p>
+        <div class="feature-list">
+          <div class="feature-item">
+            <div class="fi-icon fi-amber">&#128209;</div>
+            <div class="feature-text">
+              <h4>Chapters, Scenes &amp; Synopses</h4>
+              <p>Every scene gets a card with a short synopsis — see the whole story's shape without opening a single scene.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-coral">&#8646;</div>
+            <div class="feature-text">
+              <h4>Drag to Rearrange</h4>
+              <p>Reorder scenes within a chapter or move them across chapters entirely — the manuscript structure updates with the board.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon fi-green">&#128269;</div>
+            <div class="feature-text">
+              <h4>Zoom In &amp; Out</h4>
+              <p>Zoom out for a bird's-eye view of the full book, or zoom in to focus on a single act while you plan.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -183,12 +280,13 @@
     <div class="section-header reveal">
       <span class="section-label">Charts &amp; Analytics</span>
       <h2>Your book has data.<br><span class="gradient-text">You should see it.</span></h2>
-      <p>Six analytical dashboards. No guessing whether your second act is thin, your protagonist is underwritten, or your prose reads like a legal document.</p>
+      <p>Six analytical dashboards. No guessing whether your second act is thin, your protagonist is underwritten, or your prose reads like a legal document — or like it wasn't written by you at all.</p>
     </div>
 
     <div class="analytics-tabs reveal">
       <button class="tab-btn active" data-tab="style">Writing Style</button>
       <button class="tab-btn"        data-tab="structure">Story Structure</button>
+      <button class="tab-btn"        data-tab="ai-signals">AI Signals</button>
       <button class="tab-btn"        data-tab="progress">Progress</button>
       <button class="tab-btn"        data-tab="screenshots">Screenshots</button>
     </div>
@@ -281,6 +379,35 @@
       </div>
     </div>
 
+    <!-- AI Signals tab -->
+    <div class="tab-panel" id="tab-ai-signals">
+      <p style="text-align:center;max-width:640px;margin:0 auto 20px;font-size:13px;color:var(--text-3);line-height:1.6;">
+        An overall AI Detection Score plus six underlying signals — Sentence Rhythm, Scene Consistency, Lexical Entropy, Hapax Richness, Phrase Variety, and Transitions — so you know whether your prose reads as human before an agent or reader does.
+      </p>
+      <div class="ac-wrap reveal">
+        <div class="hero-carousel">
+          <img class="hc-slide active screenshot" src="images/21AISignals.png" alt="AI Signals overview">
+          <img class="hc-slide screenshot"        src="images/22AISignals.png" alt="Sentence Rhythm signal detail">
+          <img class="hc-slide screenshot"        src="images/23AISignals.png" alt="Scene Consistency signal detail">
+          <img class="hc-slide screenshot"        src="images/24AISignals.png" alt="Lexical Entropy signal detail">
+          <img class="hc-slide screenshot"        src="images/25AISignals.png" alt="Hapax Richness signal detail">
+          <img class="hc-slide screenshot"        src="images/26AISignals.png" alt="Phrase Variety signal detail">
+          <img class="hc-slide screenshot"        src="images/27AISignals.png" alt="Transitions signal detail">
+          <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+          <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+          <div class="hc-dots">
+            <button class="hc-dot active" data-idx="0" aria-label="Slide 1"></button>
+            <button class="hc-dot"        data-idx="1" aria-label="Slide 2"></button>
+            <button class="hc-dot"        data-idx="2" aria-label="Slide 3"></button>
+            <button class="hc-dot"        data-idx="3" aria-label="Slide 4"></button>
+            <button class="hc-dot"        data-idx="4" aria-label="Slide 5"></button>
+            <button class="hc-dot"        data-idx="5" aria-label="Slide 6"></button>
+            <button class="hc-dot"        data-idx="6" aria-label="Slide 7"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Progress tab -->
     <div class="tab-panel" id="tab-progress">
       <div class="heatmap-card reveal">
@@ -319,16 +446,17 @@
     <div class="tab-panel" id="tab-screenshots">
       <div class="ac-wrap reveal">
         <div class="hero-carousel">
-          <img class="hc-slide active screenshot" src="images/Charts.png"          alt="Analytics overview">
-          <img class="hc-slide screenshot"        src="images/WritingStyle.png"    alt="Writing Style dashboard">
-          <img class="hc-slide screenshot"        src="images/Style.png"           alt="Style analysis">
-          <img class="hc-slide screenshot"        src="images/Readability.png"     alt="Readability metrics">
-          <img class="hc-slide screenshot"        src="images/Vocabulary.png"      alt="Vocabulary metrics">
-          <img class="hc-slide screenshot"        src="images/Pacing.png"          alt="Pacing analysis">
-          <img class="hc-slide screenshot"        src="images/Rythm.png"           alt="Rhythm metrics">
-          <img class="hc-slide screenshot"        src="images/Paragraphs.png"      alt="Paragraph analysis">
-          <img class="hc-slide screenshot"        src="images/EntityFrequency.png" alt="Entity frequency">
-          <img class="hc-slide screenshot"        src="images/Goals.png"           alt="Session goals">
+          <img class="hc-slide active screenshot" src="images/10Analyze.png"       alt="Analytics overview">
+          <img class="hc-slide screenshot"        src="images/11WritingStyle.png"  alt="Writing Style dashboard">
+          <img class="hc-slide screenshot"        src="images/16Style.png"         alt="Style analysis">
+          <img class="hc-slide screenshot"        src="images/12Readability.png"   alt="Readability metrics">
+          <img class="hc-slide screenshot"        src="images/13Vocabulary.png"    alt="Vocabulary metrics">
+          <img class="hc-slide screenshot"        src="images/17Pacing.png"        alt="Pacing analysis">
+          <img class="hc-slide screenshot"        src="images/14Rhythm.png"        alt="Rhythm metrics">
+          <img class="hc-slide screenshot"        src="images/15Paragraphs.png"    alt="Paragraph analysis">
+          <img class="hc-slide screenshot"        src="images/19EntityFrequency.png" alt="Entity frequency">
+          <img class="hc-slide screenshot"        src="images/9Goals.png"          alt="Session goals">
+          <img class="hc-slide screenshot"        src="images/18Structure.png"     alt="Story Structure dashboard">
           <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
           <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
           <div class="hc-dots">
@@ -342,6 +470,7 @@
             <button class="hc-dot"        data-idx="7" aria-label="Slide 8"></button>
             <button class="hc-dot"        data-idx="8" aria-label="Slide 9"></button>
             <button class="hc-dot"        data-idx="9" aria-label="Slide 10"></button>
+            <button class="hc-dot"        data-idx="10" aria-label="Slide 11"></button>
           </div>
         </div>
       </div>
@@ -873,7 +1002,7 @@
       </div>
     </div>
     <div class="reveal reveal-d3" style="max-width:860px;margin:40px auto 0;">
-      <img src="images/Export.png" alt="Export dialog" class="screenshot section-screenshot">
+      <img src="images/28Export.png" alt="Export dialog" class="screenshot section-screenshot">
     </div>
   </div>
 </section>
@@ -911,6 +1040,18 @@
     <p style="text-align:center;margin-top:36px;font-size:14px;color:var(--text-4)">
       Works with <span style="color:var(--text-2);font-weight:600">Google Drive</span> and <span style="color:var(--text-2);font-weight:600">Dropbox</span>
     </p>
+    <div class="reveal reveal-d3" style="max-width:860px;margin:40px auto 0;">
+      <div class="hero-carousel">
+        <img class="hc-slide active screenshot" src="images/29CloudSync.png" alt="Connect Google Drive or Dropbox">
+        <img class="hc-slide screenshot"        src="images/30CloudSync.png" alt="Cloud sync settings and status">
+        <button class="hc-arrow hc-prev" aria-label="Previous image">&#8249;</button>
+        <button class="hc-arrow hc-next" aria-label="Next image">&#8250;</button>
+        <div class="hc-dots">
+          <button class="hc-dot active" data-idx="0" aria-label="Slide 1"></button>
+          <button class="hc-dot"        data-idx="1" aria-label="Slide 2"></button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -920,13 +1061,13 @@
     <div class="section-header reveal">
       <span class="section-label">Privacy</span>
       <h2>Your words. Your machine.<br><span class="gradient-teal">Your rules.</span></h2>
-      <p>Draftwell Pro runs entirely on your own computer. Nothing is ever sent to a server. No account required. No cloud. No telemetry.</p>
+      <p>Draftwell Pro runs entirely on your own computer by default. Nothing is ever sent to a server unless you turn on cloud sync yourself. No account required. No telemetry.</p>
     </div>
     <div class="privacy-grid">
       <div class="privacy-card reveal reveal-d1">
         <div class="privacy-icon">&#128274;</div>
         <h3>Local-First</h3>
-        <p>All data stays on your machine. No internet connection required to write. No sync. No server. No outage that costs you your manuscript.</p>
+        <p>All data stays on your machine. No internet connection required to write. No server. Cloud sync is opt-in — off unless you switch it on.</p>
       </div>
       <div class="privacy-card reveal reveal-d2">
         <div class="privacy-icon">&#128190;</div>
@@ -1003,8 +1144,8 @@
       </div>
       <div class="not-card reveal reveal-d3" style="border-color:rgba(74,158,255,0.25)">
         <div class="ni">&#9729;</div>
-        <h3>Not Cloud-Based</h3>
-        <p>No account required. No data leaves your machine. No server outage that loses your work. No company with access to your story.</p>
+        <h3>Not Cloud-Locked</h3>
+        <p>No account required, no forced sign-in. Cloud sync is opt-in to your own Google Drive or Dropbox — Draftwell Pro's servers never see your files.</p>
       </div>
       <div class="not-card reveal reveal-d4" style="border-color:rgba(245,158,11,0.25)">
         <div class="ni">&#9881;</div>

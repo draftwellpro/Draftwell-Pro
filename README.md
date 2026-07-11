@@ -46,9 +46,18 @@ Your book lives in a clean three-level hierarchy: **Book → Chapter → Scene**
 
 ---
 
+### Import & Outline Mode
+
+Already have a draft? Bring it in, then plan the rest on a visual board.
+
+- **Import from Word** — select an existing `.docx` file, configure how its headings map to chapters and scenes, and import it straight into a book's structure
+- **Outline Mode** — a corkboard-style board for chapters, scenes, and synopses; drag cards to rearrange the book's structure, zoom in for detail or out for a full manuscript overview
+
+---
+
 ### Charts & Analytics
 
-Six analytical dashboards. No guessing whether your second act is thin, your protagonist is underwritten, or your prose reads like a legal document.
+Six analytical dashboards. No guessing whether your second act is thin, your protagonist is underwritten, or your prose reads like a legal document — or like it wasn't written by you at all.
 
 **Writing Style** — a six-axis radar chart across:
 - Readability (Flesch, Flesch-Kincaid, ARI, Coleman-Liau, Gunning Fog, SMOG)
@@ -59,6 +68,8 @@ Six analytical dashboards. No guessing whether your second act is thin, your pro
 - Vitality
 
 **Story Structure** — words-per-chapter bar chart with act weight distribution
+
+**AI Signals** — perplexity, burstiness, sentence variance, and repetition score, scene-by-scene, so you know whether your prose reads as human-written before an agent or reader does
 
 **Progress** — 12-month writing activity heatmap with total words, session count, and best day
 
