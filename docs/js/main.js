@@ -212,14 +212,27 @@ document.querySelectorAll('.hero-carousel').forEach(initCarousel);
 
 /* ── Lightbox ────────────────────────────────────────────────── */
 (function initLightbox() {
-  const lb     = document.getElementById('lightbox');
-  const lbImg  = lb && lb.querySelector('.lb-img');
+  const lb      = document.getElementById('lightbox');
+  const lbImg   = lb && lb.querySelector('.lb-img');
   const lbClose = lb && lb.querySelector('.lb-close');
+  const lbPrev  = lb && lb.querySelector('.lb-prev');
+  const lbNext  = lb && lb.querySelector('.lb-next');
   if (!lb) return;
 
-  function open(src, alt) {
-    lbImg.src = src;
-    lbImg.alt = alt || '';
+  let gallery = [];
+  let index   = 0;
+
+  function show(idx) {
+    index = (idx + gallery.length) % gallery.length;
+    const img = gallery[index];
+    lbImg.src = img.src;
+    lbImg.alt = img.alt || '';
+    lb.classList.toggle('lb-single', gallery.length < 2);
+  }
+
+  function open(imgList, startIdx) {
+    gallery = imgList;
+    show(startIdx);
     lb.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
@@ -231,12 +244,23 @@ document.querySelectorAll('.hero-carousel').forEach(initCarousel);
   }
 
   document.querySelectorAll('.screenshot').forEach(img => {
-    img.addEventListener('click', () => open(img.src, img.alt));
+    const carousel = img.closest('.hero-carousel');
+    const imgList  = carousel
+      ? Array.from(carousel.querySelectorAll('.hc-slide'))
+      : [img];
+    img.addEventListener('click', () => open(imgList, imgList.indexOf(img)));
   });
 
+  lbPrev.addEventListener('click', e => { e.stopPropagation(); show(index - 1); });
+  lbNext.addEventListener('click', e => { e.stopPropagation(); show(index + 1); });
   lbClose.addEventListener('click', close);
   lb.addEventListener('click', e => { if (e.target === lb) close(); });
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(index - 1);
+    if (e.key === 'ArrowRight') show(index + 1);
+  });
 })();
 
 /* ── Smooth scroll for all anchor links ──────────────────────── */

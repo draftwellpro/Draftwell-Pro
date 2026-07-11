@@ -60,6 +60,14 @@ code {
   font-size: 0.88em;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
 /* --- Layout --------------------------------------------------------- */
 .container { max-width: var(--container); margin: 0 auto; padding: 0 24px; }
 
@@ -441,6 +449,36 @@ h1.hero-headline {
   transition: background 0.2s;
 }
 .lb-close:hover { background: rgba(255,255,255,0.18); }
+.lb-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  font-size: 32px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  padding: 0;
+  padding-bottom: 3px;
+  z-index: 1;
+}
+.lb-arrow:hover { background: rgba(255,255,255,0.18); }
+.lb-prev { left: 20px; }
+.lb-next { right: 20px; }
+.lightbox.lb-single .lb-arrow { display: none; }
+@media (max-width: 640px) {
+  .lb-arrow { width: 42px; height: 42px; font-size: 26px; }
+  .lb-prev { left: 8px; }
+  .lb-next { right: 8px; }
+}
 
 /* --- Feature items -------------------------------------------------- */
 .feature-list { display: flex; flex-direction: column; gap: 14px; }
@@ -875,6 +913,91 @@ h1.hero-headline {
 .not-card .ni { font-size: 26px; margin-bottom: 14px; }
 .not-card h3 { font-size: 16px; font-weight: 700; color: var(--text-1); margin-bottom: 8px; }
 .not-card p  { font-size: 14px; color: var(--text-3); line-height: 1.6; }
+
+/* --- Comparison table ------------------------------------------------ */
+.cmp-scroll { overflow-x: auto; border-radius: var(--r-md); border: 1px solid var(--border-dim); }
+.cmp-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: var(--bg-3);
+  font-size: 13px;
+}
+.cmp-table caption { caption-side: top; text-align: left; }
+.cmp-table thead th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-4);
+  color: var(--text-1);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-mid);
+  word-wrap: break-word;
+}
+.cmp-table thead th:not(:first-child) { text-align: center; }
+.cmp-table thead .cmp-head-dw { color: var(--blue); }
+.cmp-table thead .cmp-head-sc { color: var(--text-3); }
+.cmp-table thead .cmp-head-at { color: var(--amber); }
+.cmp-table thead .cmp-head-db { color: var(--purple); }
+.cmp-table thead .cmp-head-yw { color: var(--sky); }
+.cmp-table tbody th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--text-2);
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-dim);
+  word-wrap: break-word;
+}
+.cmp-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-dim);
+  border-left: 1px solid var(--border-dim);
+  color: var(--text-3);
+  vertical-align: top;
+  font-size: 12px;
+  line-height: 1.45;
+  word-wrap: break-word;
+}
+.cmp-table tbody tr:last-child th,
+.cmp-table tbody tr:last-child td { border-bottom: none; }
+.cmp-table thead th:nth-child(2) {
+  background: rgba(74,158,255,0.16);
+  box-shadow: 0 0 22px rgba(74,158,255,0.45), inset 0 -2px 0 var(--blue);
+  border-top-left-radius: var(--r-sm);
+  border-top-right-radius: var(--r-sm);
+}
+.cmp-table tbody td:nth-child(2) {
+  box-shadow: inset 4px 0 8px -5px rgba(74,158,255,0.7), inset -4px 0 8px -5px rgba(74,158,255,0.7);
+  border-left: 1px solid rgba(74,158,255,0.35);
+  border-right: 1px solid rgba(74,158,255,0.35);
+}
+.cmp-table tbody tr:last-child td:nth-child(2) { border-bottom-left-radius: var(--r-sm); border-bottom-right-radius: var(--r-sm); }
+.cmp-win {
+  color: var(--text-1);
+  font-weight: 600;
+  background: rgba(80,200,120,0.08);
+  position: relative;
+}
+.cmp-win::before {
+  content: '\2605';
+  color: var(--green);
+  font-size: 11px;
+  margin-right: 6px;
+}
+.cmp-tie { color: var(--text-4); }
+.cmp-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 18px;
+  font-size: 12px;
+  color: var(--text-4);
+}
+.cmp-legend .cmp-star { color: var(--green); }
 
 /* --- Price cards ---------------------------------------------------- */
 .price-outer {
