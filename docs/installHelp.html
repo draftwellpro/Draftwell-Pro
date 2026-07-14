@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Before You Download — Draftwell Pro</title>
+  <meta name="description" content="Why the Draftwell Pro installer trips Windows warnings, and how to get past them safely.">
+  <meta name="theme-color" content="#0a0d14">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/Favicon.ico">
+  <script async data-id="101507577" src="//static.getclicky.com/js"></script>
+  <style>
+    html, body { height: 100%; }
+    .ih-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px 24px 24px;
+    }
+    .ih-wrap { max-width: 720px; margin: 0 auto; width: 100%; }
+    .ih-wrap h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 12px;
+      color: var(--text-1);
+    }
+    .ih-intro {
+      font-size: 0.92rem;
+      color: var(--text-3);
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .ih-steps {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-bottom: 24px;
+      align-items: stretch;
+    }
+    .ih-step-list { display: flex; flex-direction: column; gap: 20px; }
+    .ih-step-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--bg-4);
+      border: 1px solid var(--border-mid);
+      font-family: var(--font-mono);
+      font-size: 12px;
+      color: var(--text-2);
+      margin-bottom: 8px;
+    }
+    .ih-step h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-1);
+      margin-bottom: 4px;
+    }
+    .ih-step p {
+      font-size: 0.85rem;
+      color: var(--text-3);
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+    .ih-shot {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: var(--r-lg);
+      border: 1px solid var(--border-mid);
+      box-shadow: 0 0 0 1px var(--border-dim), 0 24px 48px rgba(0,0,0,0.45);
+      display: block;
+    }
+    .ih-footer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .ih-thanks { font-size: 0.85rem; color: var(--text-4); }
+    @media (max-width: 640px) {
+      .ih-steps { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+<nav id="nav" class="scrolled">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo" style="text-decoration:none;color:inherit"><img src="images/logo.png" alt="Draftwell Pro"> Draftwell <span>Pro</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html#import">Import &amp; Outline</a></li>
+      <li><a href="index.html#analytics">Analytics</a></li>
+      <li><a href="index.html#search">Search</a></li>
+      <li><a href="index.html#query-tracker">Query Tracker</a></li>
+      <li><a href="index.html#cloud-sync">Cloud Sync</a></li>
+      <li><a href="index.html#privacy">Privacy</a></li>
+      <li><a href="index.html#comparison">Comparison</a></li>
+      <li><a href="index.html#price">Pricing</a></li>
+    </ul>
+    <a href="https://github.com/draftwellpro/Draftwell-Pro/releases/latest" class="btn btn-primary nav-cta">Download</a>
+  </div>
+</nav>
+
+<div class="ih-page">
+  <div class="ih-wrap">
+
+    <h1>Windows might warn you. Here's why.</h1>
+
+    <div class="ih-steps">
+
+      <div class="ih-step-list">
+        <p class="ih-intro">Draftwell Pro is built by one person, not a company — I can't justify Microsoft's several-hundred-dollar-a-year code-signing fee for a low-cost app. So the installer arrives unsigned, and Windows flags it as an "unknown publisher." It's not malware, just untrusted by default. Two quick steps fix it:</p>
+
+        <div class="ih-step">
+          <div class="ih-step-num">1</div>
+          <h3>Right-click the installer &rarr; Properties</h3>
+          <p>Find it in your <strong>Downloads</strong> folder, right-click, choose <strong>Properties</strong>.</p>
+        </div>
+
+        <div class="ih-step">
+          <div class="ih-step-num">2</div>
+          <h3>Check "Unblock" &rarr; OK</h3>
+          <p>On the <strong>General</strong> tab, check <strong>Unblock</strong> at the bottom, then click <strong>OK</strong>.</p>
+        </div>
+      </div>
+
+      <img class="ih-shot" src="images/PropertiesUnblock.JPG" alt="Installer Properties dialog with the Unblock checkbox checked">
+
+    </div>
+
+    <div class="ih-footer-row">
+      <span class="ih-thanks">Thanks for bearing with it — it means a lot for a one-person project.</span>
+      <a href="https://github.com/draftwellpro/Draftwell-Pro/releases/latest" class="btn btn-primary btn-lg">Continue to Download &#8594;</a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
