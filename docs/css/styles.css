@@ -1091,6 +1091,51 @@ h1.hero-headline {
 .price-cta { display: flex; flex-direction: column; align-items: center; gap: 11px; }
 .price-os-note { font-size: 12px; color: var(--text-4); }
 
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+.blog-card {
+  background: var(--bg-3);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--r-md);
+  padding: 28px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+.blog-card:hover {
+  border-color: var(--border-bright);
+  transform: translateY(-2px);
+}
+.blog-card-meta {
+  font-size: 13px;
+  color: var(--text-4);
+  margin-bottom: 12px;
+}
+.blog-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.blog-card-snippet {
+  color: var(--text-3);
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+.blog-card a {
+  font-weight: 700;
+  color: var(--blue);
+}
+.blog-empty {
+  background: var(--bg-3);
+  border: 1px solid var(--border-dim);
+  border-radius: var(--r-md);
+  padding: 24px;
+  color: var(--text-3);
+}
+
 /* --- Footer --------------------------------------------------------- */
 footer {
   background: var(--bg-0);
