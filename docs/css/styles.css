@@ -1135,6 +1135,21 @@ h1.hero-headline {
   padding: 24px;
   color: var(--text-3);
 }
+.article-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.article-content p {
+  color: var(--text-3);
+  line-height: 1.75;
+  margin-bottom: 18px;
+}
+.article-content h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-1);
+  margin: 40px 0 14px;
+}
 
 /* --- Footer --------------------------------------------------------- */
 footer {
