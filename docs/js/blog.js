@@ -4,13 +4,6 @@ const postsSource = 'blog/posts.txt';
 
 const fallbackPosts = [
   {
-    title: 'Why independent authors should own their workflow',
-    slug: 'own-your-workflow',
-    date: 'July 31, 2026',
-    snippet: 'Your writing tool should protect your voice, your privacy, and your ability to ship marketing-ready posts without subscription lock-in.',
-    category: 'Market & Writing'
-  },
-  {
     title: 'What Emotional Arc Does Your Story Hold?',
     slug: 'emotional-arc-of-your-story',
     date: 'July 31, 2026',
