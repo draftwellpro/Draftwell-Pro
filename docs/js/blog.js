@@ -16,7 +16,7 @@ function renderPostCard(post) {
   return `
     <article class="blog-card">
       <div class="blog-card-meta">${post.date} · ${post.category || 'Blog'}</div>
-      <h3>${post.title}</h3>
+      <h3><a href="blog/${post.slug}.html">${post.title}</a></h3>
       <p class="blog-card-snippet">${post.snippet}</p>
       <a href="blog/${post.slug}.html">Read full article</a>
     </article>`;

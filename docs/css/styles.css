@@ -1128,6 +1128,12 @@ h1.hero-headline {
   font-weight: 700;
   color: var(--blue);
 }
+.blog-card h3 a {
+  color: inherit;
+}
+.blog-card h3 a:hover {
+  color: var(--blue);
+}
 .blog-empty {
   background: var(--bg-3);
   border: 1px solid var(--border-dim);
