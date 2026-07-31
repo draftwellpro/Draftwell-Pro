@@ -9,6 +9,13 @@ const fallbackPosts = [
     date: 'July 31, 2026',
     snippet: 'Your writing tool should protect your voice, your privacy, and your ability to ship marketing-ready posts without subscription lock-in.',
     category: 'Market & Writing'
+  },
+  {
+    title: 'What Emotional Arc Does Your Story Hold?',
+    slug: 'emotional-arc-of-your-story',
+    date: 'July 31, 2026',
+    snippet: "Reagan et al. found most stories follow six basic emotional shapes. Here's how Draftwell Pro detects yours — and what it found hiding inside Goldilocks and the Three Bears.",
+    category: 'Craft & Analytics'
   }
 ];
 
