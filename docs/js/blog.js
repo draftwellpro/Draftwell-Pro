@@ -2,15 +2,8 @@ const blogList = document.getElementById('blog-list');
 const blogEmpty = document.getElementById('blog-empty');
 const postsSource = 'blog/posts.txt';
 
-const fallbackPosts = [
-  {
-    title: 'What Emotional Arc Does Your Story Hold?',
-    slug: 'emotional-arc-of-your-story',
-    date: 'July 31, 2026',
-    snippet: "Reagan et al. found most stories follow six basic emotional shapes. Here's how Draftwell Pro detects yours — and what it found hiding inside Goldilocks and the Three Bears.",
-    category: 'Craft & Analytics'
-  }
-];
+// Posts are sourced from docs/blog/posts.txt. Do not hardcode article cards here.
+const fallbackPosts = [];
 
 function renderPostCard(post) {
   return `
@@ -60,6 +53,7 @@ fetch(postsSource)
     showPosts(posts);
   })
   .catch(() => {
-    if (blogList) blogList.innerHTML = fallbackPosts.map(renderPostCard).join('');
-    if (blogEmpty) blogEmpty.hidden = true;
+    // Keep this fallback empty so the source of truth stays in posts.txt.
+    if (blogList) blogList.innerHTML = '';
+    if (blogEmpty) blogEmpty.hidden = false;
   });
