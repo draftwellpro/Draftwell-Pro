@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>We Ran Jane Austen Through an AI Detector — Draftwell Pro Blog</title>
+  <meta name="description" content="Draftwell Pro's AI Signals panel scores Pride and Prejudice 5.1/10 — 'Mixed Signals.' Here's exactly which of the six sub-scores pushed a 210-year-old novel toward an AI-like reading, and what that means for your own manuscript.">
+  <meta name="keywords" content="AI detection, AI writing signals, false positive, Jane Austen, Pride and Prejudice, Draftwell Pro, writing software, manuscript analysis">
+  <meta name="author" content="Draftwell Pro">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#0a0d14">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://draftwellpro.github.io/Draftwell-Pro/blog/we-ran-jane-austen-through-an-ai-detector.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Draftwell Pro">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="We Ran Jane Austen Through an AI Detector">
+  <meta property="og:description" content="Pride and Prejudice scores 5.1/10 — 'Mixed Signals' — on Draftwell Pro's AI detector. Here's exactly what pulled a novel from 1813 toward an AI-like reading.">
+  <meta property="og:url" content="https://draftwellpro.github.io/Draftwell-Pro/blog/we-ran-jane-austen-through-an-ai-detector.html">
+  <meta property="og:image" content="https://draftwellpro.github.io/Draftwell-Pro/images/draftwellBanner.png">
+  <meta property="og:image:secure_url" content="https://draftwellpro.github.io/Draftwell-Pro/images/draftwellBanner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Draftwell Pro blog illustration for AI writing signal analysis">
+
+  <!-- Facebook Article -->
+  <meta property="article:published_time" content="2026-08-12T00:00:00-04:00">
+  <meta property="article:modified_time" content="2026-08-12T00:00:00-04:00">
+  <meta property="article:author" content="Draftwell Pro">
+  <meta property="article:section" content="Writing Analytics">
+  <meta property="article:tag" content="AI Detection">
+  <meta property="article:tag" content="AI Signals">
+  <meta property="article:tag" content="Jane Austen">
+  <meta property="article:tag" content="Pride and Prejudice">
+  <meta property="article:tag" content="Writing Craft">
+  <meta property="article:tag" content="Draftwell Pro">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="We Ran Jane Austen Through an AI Detector">
+  <meta name="twitter:description" content="A novel from 1813 scores 5.1/10 — 'Mixed Signals' — on an AI-detection heuristic. Here's what that number actually means, and doesn't.">
+  <meta name="twitter:image" content="https://draftwellpro.github.io/Draftwell-Pro/images/draftwellBanner.png">
+
+  <!-- Schema.org Article -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "@id":"https://draftwellpro.github.io/Draftwell-Pro/blog/we-ran-jane-austen-through-an-ai-detector.html",
+    "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://draftwellpro.github.io/Draftwell-Pro/blog/we-ran-jane-austen-through-an-ai-detector.html"
+    },
+    "headline":"We Ran Jane Austen Through an AI Detector",
+    "description":"Draftwell Pro's AI Signals panel scores Pride and Prejudice 5.1/10 — Mixed Signals. Here's exactly which of the six sub-scores pushed it there.",
+    "datePublished":"2026-08-12",
+    "dateModified":"2026-08-12",
+    "author":{ "@type":"Organization", "name":"Draftwell Pro" },
+    "publisher":{
+      "@type":"Organization",
+      "name":"Draftwell Pro",
+      "logo":{ "@type":"ImageObject", "url":"https://draftwellpro.github.io/Draftwell-Pro/images/logo.png" }
+    }
+  }
+  </script>
+
+  <!-- Schema.org SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"Draftwell Pro",
+    "applicationCategory":"WritingApplication",
+    "operatingSystem":"Windows",
+    "url":"https://draftwellpro.github.io/Draftwell-Pro/",
+    "publisher":{ "@type":"Organization", "name":"Draftwell Pro" }
+  }
+  </script>
+
+  <!-- Breadcrumbs -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BreadcrumbList",
+    "itemListElement":[
+      { "@type":"ListItem", "position":1, "name":"Home", "item":"https://draftwellpro.github.io/Draftwell-Pro/" },
+      { "@type":"ListItem", "position":2, "name":"Blog", "item":"https://draftwellpro.github.io/Draftwell-Pro/blog.html" },
+      { "@type":"ListItem", "position":3, "name":"We Ran Jane Austen Through an AI Detector", "item":"https://draftwellpro.github.io/Draftwell-Pro/blog/we-ran-jane-austen-through-an-ai-detector.html" }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" href="../images/Favicon.ico">
+
+  <style>
+    .stat-row{ display:flex; flex-wrap:wrap; gap:12px; margin:28px 0; }
+    .stat-chip{ flex:1 1 150px; background:var(--bg-2); border:1px solid var(--border-dim); border-radius:var(--r-sm); padding:14px; }
+    .stat-chip .num{ font-family:var(--font-mono); font-size:20px; font-weight:700; color:var(--text-1); }
+    .stat-chip .lbl{ margin-top:4px; font-size:12px; color:var(--text-4); }
+
+    .insight-box{ margin:30px 0; padding:18px 20px; background:var(--bg-2); border:1px solid var(--border-dim); border-left:4px solid var(--purple); border-radius:var(--r-sm); }
+    .insight-box strong{ display:block; margin-bottom:8px; color:var(--text-1); }
+
+    .article-quote{ border-left:3px solid var(--purple); margin:34px 0; padding:16px 0 16px 22px; font-size:clamp(1.35rem,2.3vw,1.9rem); font-weight:800; line-height:1.45; color:var(--text-1); }
+
+    .comparison-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; margin:32px 0; }
+    .comparison-card{ background:var(--bg-2); border:1px solid var(--border-dim); border-radius:var(--r-sm); padding:18px; }
+    .comparison-card h3{ margin-top:0; margin-bottom:12px; }
+    .comparison-card ul{ margin-bottom:0; }
+
+    .try-box{ margin:40px 0; padding:22px; background:var(--bg-2); border:1px solid var(--border-dim); border-radius:var(--r-sm); }
+    .try-box h3{ margin-top:0; }
+
+    .chart-card{ margin:34px 0; background:var(--bg-2); border:1px solid var(--border-dim); border-radius:var(--r-sm); padding:22px 20px 14px; }
+    .chart-card h4{ margin:0 0 4px; font-size:15px; color:var(--text-1); }
+    .chart-card .chart-sub{ margin:0 0 14px; font-size:12.5px; color:var(--text-4); }
+    .chart-svg-wrap{ width:100%; overflow-x:auto; }
+    .chart-svg-wrap svg{ display:block; width:100%; height:auto; min-width:420px; }
+    .chart-legend{ display:flex; gap:18px; flex-wrap:wrap; margin:10px 0 4px; font-size:12.5px; color:var(--text-3); }
+    .chart-legend span{ display:inline-flex; align-items:center; gap:6px; }
+    .chart-legend i{ width:10px; height:10px; border-radius:2px; display:inline-block; }
+
+    .data-table{ width:100%; border-collapse:collapse; margin:18px 0; font-size:13.5px; }
+    .data-table th, .data-table td{ text-align:left; padding:8px 10px; border-bottom:1px solid var(--border-dim); }
+    .data-table th{ color:var(--text-4); font-weight:600; font-size:11.5px; text-transform:uppercase; letter-spacing:0.03em; }
+    .data-table td{ color:var(--text-2); }
+    .data-table td.num{ font-family:var(--font-mono); color:var(--text-1); }
+
+    .caveat{ font-size:12.5px; color:var(--text-4); border-top:1px solid var(--border-dim); margin-top:34px; padding-top:16px; }
+  </style>
+</head>
+
+<body>
+
+<nav id="nav">
+  <div class="container nav-inner">
+    <div class="nav-logo">
+      <img src="../images/logo.png" alt="Draftwell Pro">
+      Draftwell <span>Pro</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="../index.html#editor">Features</a></li>
+      <li><a href="../index.html#analytics">Analytics</a></li>
+      <li><a href="../index.html#search">Search</a></li>
+      <li><a href="../blog.html">Blog</a></li>
+    </ul>
+    <a href="../installHelp.html" class="btn btn-primary nav-cta">Download</a>
+  </div>
+</nav>
+
+<section class="section-alt" style="text-align:center;">
+  <div class="container">
+    <div class="hero-content reveal" style="max-width:780px;margin:0 auto;">
+      <span class="section-label">Blog Article</span>
+      <h1 class="hero-headline">We Ran Jane Austen Through an AI Detector</h1>
+      <p class="hero-sub" style="max-width:720px;margin:18px auto 0;">
+        Pride and Prejudice was published in 1813. Draftwell Pro's AI Signals panel still scored it "Mixed Signals" — 5.1 out of 10. Here's exactly what pulled it there, and what that says about your own manuscript's score.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+<div class="container article-content">
+
+<p class="blog-card-meta">August 12, 2026 · Draftwell Pro Blog</p>
+
+<p>
+Every author with a manuscript on submission today has the same low-grade anxiety: what if an editor, an agent, or a platform runs my writing through an AI detector and it comes back wrong? So we pointed Draftwell Pro's own AI Signals panel — the same one built into every manuscript report — at a novel that predates the light bulb, the typewriter ribbon, and every large language model by well over a century. <em>Pride and Prejudice</em> came back <strong>5.1 out of 10 — "Mixed Signals."</strong> Not clean. Not damning. Mixed.
+</p>
+
+<div class="stat-row">
+<div class="stat-chip"><div class="num">5.1 / 10</div><div class="lbl">Overall assessment</div></div>
+<div class="stat-chip"><div class="num">1.8 / 10</div><div class="lbl">Sentence Rhythm (most human)</div></div>
+<div class="stat-chip"><div class="num">9.6 / 10</div><div class="lbl">Hapax Richness (most AI-like)</div></div>
+<div class="stat-chip"><div class="num">1813</div><div class="lbl">Year published</div></div>
+</div>
+
+<p>
+Draftwell Pro is explicit that these signals are probabilistic pattern-matches against known AI tendencies, not proof of authorship — a caveat worth taking seriously here, since the result proves the point better than any disclaimer could. Six independent sub-scores feed the composite, each 0–10, where higher means "reads more like statistically typical AI output." Here's how Austen's prose actually broke down.
+</p>
+
+<div class="chart-card">
+  <h4>AI Signals — the six sub-scores behind the 5.1/10 rating</h4>
+  <p class="chart-sub">0–10 scale, higher = more AI-typical pattern. Dashed line marks the 5.1 overall average.</p>
+  <div class="chart-svg-wrap">
+    <svg viewBox="0 0 620 300" role="img" aria-label="Horizontal bar chart of six AI signal sub-scores: Hapax Richness 9.6, Scene Consistency 7.1, Phrase Variety 6.7, Lexical Entropy 5.1, Sentence Rhythm 1.8, Transition Density 0.1">
+      <line x1="160" y1="16" x2="160" y2="272" stroke="#1e2a3a" stroke-width="1"></line>
+      <line x1="374" y1="10" x2="374" y2="272" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4 4"></line>
+      <text x="374" y="8" text-anchor="middle" font-size="11" fill="#f97316">Overall 5.1</text>
+
+      <!-- Hapax Richness 9.6 -->
+      <rect x="160" y="20" width="403" height="24" rx="4" fill="#f97316">
+        <title>Hapax Richness: 9.6/10 (from a 2.0% hapax ratio — few one-off words)</title>
+      </rect>
+      <text x="154" y="37" text-anchor="end" font-size="12.5" fill="#c9d5e0">Hapax Richness</text>
+      <text x="573" y="37" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">9.6</text>
+
+      <!-- Scene Consistency 7.1 -->
+      <rect x="160" y="62" width="298" height="24" rx="4" fill="#f97316">
+        <title>Scene Consistency: 7.1/10 (from ±7.2 Flesch readability volatility — very steady)</title>
+      </rect>
+      <text x="154" y="79" text-anchor="end" font-size="12.5" fill="#c9d5e0">Scene Consistency</text>
+      <text x="468" y="79" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">7.1</text>
+
+      <!-- Phrase Variety 6.7 -->
+      <rect x="160" y="104" width="281" height="24" rx="4" fill="#f97316">
+        <title>Phrase Variety: 6.7/10 (from 44.5% unique bigrams)</title>
+      </rect>
+      <text x="154" y="121" text-anchor="end" font-size="12.5" fill="#c9d5e0">Phrase Variety</text>
+      <text x="451" y="121" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">6.7</text>
+
+      <!-- Lexical Entropy 5.1 -->
+      <rect x="160" y="146" width="214" height="24" rx="4" fill="#f97316">
+        <title>Lexical Entropy: 5.1/10 (9.09 bits Shannon entropy, 50.3% MATTR)</title>
+      </rect>
+      <text x="154" y="163" text-anchor="end" font-size="12.5" fill="#c9d5e0">Lexical Entropy</text>
+      <text x="384" y="163" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">5.1</text>
+
+      <!-- Sentence Rhythm 1.8 -->
+      <rect x="160" y="188" width="76" height="24" rx="4" fill="#f97316">
+        <title>Sentence Rhythm: 1.8/10 (15.3-word SD, 0.13 autocorrelation — highly varied)</title>
+      </rect>
+      <text x="154" y="205" text-anchor="end" font-size="12.5" fill="#c9d5e0">Sentence Rhythm</text>
+      <text x="246" y="205" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">1.8</text>
+
+      <!-- Transition Density 0.1 -->
+      <rect x="160" y="230" width="4" height="24" rx="2" fill="#f97316">
+        <title>Transition Density: 0.1/10 (1.0 transition words per 1k, 0.1% sentence-opening rate)</title>
+      </rect>
+      <text x="154" y="247" text-anchor="end" font-size="12.5" fill="#c9d5e0">Transition Density</text>
+      <text x="174" y="247" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" fill="#f0f4f8">0.1</text>
+    </svg>
+  </div>
+</div>
+
+<h2>The two signals that read "human" almost perfectly</h2>
+
+<p>
+<strong>Sentence Rhythm scored 1.8/10</strong> — the single strongest human fingerprint in the whole report. It's built from sentence-length standard deviation (15.3 words), lag-1 autocorrelation (0.13, close to zero), and paragraph-length spread (88.7 words). In plain terms: Austen's sentences swing wildly in length from one to the next, with almost no tendency to settle into a repeating pattern — the "burstiness" that AI-detection research treats as the clearest tell of human composition.
+</p>
+
+<p>
+<strong>Transition Density scored 0.1/10</strong> — essentially the floor. Only 0.1% of her sentences open with a formal connective like "Moreover" or "Consequently," and her overall rate of transition words sits at just 1.0 per 1,000 words. Modern AI output leans on exactly these connectives to stitch paragraphs together; Austen barely uses them at all.
+</p>
+
+<h2>The signal that reads almost entirely "AI-like"</h2>
+
+<p>
+Then there's <strong>Hapax Richness at 9.6/10</strong> — the highest, most AI-adjacent score in the report, on a novel written 209 years before the phrase "large language model" existed. The input behind it is simple: only 2.0% of Austen's words appear exactly once in the entire 122,657-word book. AI-detection research treats a low hapax ratio as a tell, because language models statistically favor common, high-probability words over rare one-off choices. Austen's ratio is low — but for reasons that have nothing to do with machine generation. She writes in a tight, formal, repetition-heavy register: "Elizabeth," "Darcy," "Bennet," and a small set of period-formal adverbs (<em>certainly</em>, <em>immediately</em>, <em>perfectly</em>) recur constantly across six hundred pages, because that's how disciplined 1810s prose sounds.
+</p>
+
+<div class="insight-box">
+<strong>The metric isn't wrong. It's measuring the wrong thing for this text.</strong>
+Low vocabulary variety is a genuine, well-documented AI tendency — it's just not an <em>exclusive</em> one. Formal, tightly controlled prose from any era can trip the same wire. That's the whole reason Draftwell Pro reports six separate signals instead of one composite score: so you can see which lever moved, instead of just staring at a number that won't explain itself.
+</div>
+
+<h2>Scene Consistency: when polish looks like uniformity</h2>
+
+<p>
+<strong>Scene Consistency scored 7.1/10</strong>, the second-highest AI-adjacent signal. It's derived from readability volatility — how much Flesch Reading Ease swings from scene to scene — and Austen's is remarkably steady at just ±7.2 points. AI-generated content tends to hold a suspiciously flat register throughout; human writers usually let tense scenes read harder and quiet scenes read easier. Austen's control cuts against her here. The same discipline that makes her prose feel effortless and mannered — never lurching in difficulty scene to scene — is statistically difficult to distinguish from an unnaturally even machine output.
+</p>
+
+<blockquote class="article-quote">
+The two things Austen is most praised for — her control and her narrow, precise diction — are the exact two things nudging her score toward "AI-like."
+</blockquote>
+
+<h2>Why "Mixed Signals" is the honest answer</h2>
+
+<p>
+Average all six and you land at 5.1/10, squarely in Draftwell Pro's "Mixed Signals" band (4–6). That's not a failure of the tool — it's the correct answer for this text. Two signals point strongly human, two sit near the middle, and two land firmly on the AI-adjacent side, for entirely different and explainable reasons in each case. A single blended number would have hidden all of that nuance behind one deceptively tidy digit.
+</p>
+
+<div class="comparison-grid">
+<div class="comparison-card">
+<h3>What a high AI score often actually means</h3>
+<ul>
+<li>Genuinely templated or generated text</li>
+<li>Heavy reliance on formal connectives</li>
+<li>Unnaturally flat sentence rhythm</li>
+</ul>
+</div>
+<div class="comparison-card">
+<h3>What it can also mean</h3>
+<ul>
+<li>Formal or period-specific register</li>
+<li>Heavily edited, disciplined prose</li>
+<li>A narrow, controlled vocabulary by design</li>
+</ul>
+</div>
+</div>
+
+<h2>What this means for your own manuscript</h2>
+
+<ul>
+<li>If your own AI Signals score comes back "Mixed" or elevated, don't treat it as a verdict — open the six sub-scores and see which ones are actually driving it.</li>
+<li>A high score from Sentence Rhythm or Transition Density deserves real attention; those are the two signals with the least ambiguous human/AI story to tell.</li>
+<li>A high score from Hapax Richness or Scene Consistency is far more likely to reflect a tight, controlled, heavily revised voice — often exactly what an editor is asking for.</li>
+<li>Genre and formality shift these baselines. Technical writing, literary fiction with a narrow diction, and heavily copyedited prose will all read more "AI-adjacent" by these heuristics than loose, conversational first drafts — regardless of who or what wrote them.</li>
+</ul>
+
+<div class="try-box">
+<h3>Try this on your own manuscript</h3>
+<p>
+Run your manuscript through Draftwell Pro and open the AI Signals panel before you panic over the composite number. Check which of the six sub-scores is highest, and ask honestly whether it matches something you did on purpose — a controlled vocabulary, an even tone, minimal connective phrasing. If your outliers have a clear, intentional explanation the way Austen's do, the score is telling you about your craft, not accusing you of anything.
+</p>
+</div>
+
+<h2>Read the full report</h2>
+<p>
+The complete manuscript analysis behind this article is available here:
+<a href="../Pride%20And%20Prejudice.pdf">Pride and Prejudice manuscript report</a>.
+</p>
+
+<p class="caveat">
+AI Signals are probabilistic pattern-matches against known AI-generation tendencies, not proof of authorship. Formal, technical, or heavily-edited human writing regularly scores in the same range. Draftwell Pro presents this panel as a self-reflection tool, never as a determination of who — or what — wrote a manuscript.
+</p>
+
+<p style="margin-top:24px;font-size:14px;color:var(--text-4);">
+Back to <a href="../blog.html">Blog overview</a>
+</p>
+
+</div>
+</section>
+
+<footer>
+<div class="container footer-inner">
+<div class="footer-logo"><img src="../images/logo.png" alt="Draftwell Pro"></div>
+<ul class="footer-links">
+<li><a href="../index.html#editor">Features</a></li>
+<li><a href="../index.html#analytics">Analytics</a></li>
+<li><a href="../index.html#search">Search</a></li>
+<li><a href="../blog.html">Blog</a></li>
+<li><a href="../index.html#price">Pricing</a></li>
+</ul>
+<div class="footer-copy">&copy; 2026 Draftwell Pro. Designed by a writer, for writers.</div>
+</div>
+</footer>
+
+<script src="../js/main.js"></script>
+
+</body>
+</html>
